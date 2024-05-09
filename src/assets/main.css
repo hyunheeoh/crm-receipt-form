@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .root-container {
+    @apply md:max-w-lg w-full;
+  }
+  .root-px {
+    @apply px-8;
+  }
+  .root-title {
+    @apply mt-5 mb-1 text-2xl font-medium text-slate-700;
+  }
+  .root-subtitle {
+    @apply mt-1 max-w-2xl text-sm leading-6 text-gray-500;
+  }
+  .not-allowed {
+    @apply text-gray-400 cursor-not-allowed;
+  }
+}
